@@ -1,28 +1,28 @@
 class LlamaSwap < Formula
   desc "Proxy server for swapping models on llama.cpp"
   homepage "https://github.com/mostlygeek/llama-swap"
-  version "185"
+  version "186"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_darwin_arm64.tar.gz"
-      sha256 "5037d96f8398e71bc1589bd8b6931f41dfa0fe8d371ddbfe36afcb99f84385d5"
+      sha256 "dbf18238028abeb40094538000799d74366aec7fb6bc0190c1595f3b0bdf9214"
     end
     on_intel do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_darwin_amd64.tar.gz"
-      sha256 "f4da38b07c0dabed50585977d53bff55a5899160c5d2fbf68d7b79b3f79defbd"
+      sha256 "40558ea088d668d7d9a5551959e5a9c5685e65e59f302f5312695e5604d1bc5a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_linux_arm64.tar.gz"
-      sha256 "2a77b6d8761da2106efac340f6df93a2fa047736882b74e1110e80df5d222ccb"
+      sha256 "c197ded2f48a1e0b9db64641e89bb3c7119f21aa13b470c07904d07be4f25737"
     end
     on_intel do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_linux_amd64.tar.gz"
-      sha256 "e6d0c7355cf65d922d5f6992b3d401a3604036061aa3e7ddf28596ec04bcaeca"
+      sha256 "4d2250cc1d9df049f40bfc5b84c39eda8e633bdad817c7f8ba04669744f50db2"
     end
   end
 
