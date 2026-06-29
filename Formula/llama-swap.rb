@@ -7,22 +7,22 @@ class LlamaSwap < Formula
   on_macos do
     on_arm do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_darwin_arm64.tar.gz"
-      sha256 "5c7aaba109f2eaf5f2bffceb0403907ffa811e9fcd539bceb03742f19efc592d"
+      sha256 "d6e2dd31832ad3ea3857332039214e5b05a205a462e12cffb4c17b91b4d3ca4e"
     end
     on_intel do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_darwin_amd64.tar.gz"
-      sha256 "7b9afd9c5f2f91fd75d7c591617a7d9279e0fd371812db16bb03b052d87543b0"
+      sha256 "9dd69eb08f0cc92017cdafb7e1f24641f738f8b803ef2bd1544e1e301ecb9aa5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_linux_arm64.tar.gz"
-      sha256 "328fe7478b95810cf392310a588360abea2d317c59d51fcaf7c5fcdf5697ae81"
+      sha256 "5336c95828a256b844f02d0854aa55fecf4ddd47939ae09d83ea1a4b62a30d37"
     end
     on_intel do
       url "https://github.com/mostlygeek/llama-swap/releases/download/v#{version}/llama-swap_#{version}_linux_amd64.tar.gz"
-      sha256 "145276b70642718bfce53f105067150bcafefa60429da10ac4bec2c8a5dc8907"
+      sha256 "2382e41ff7ab2de363176bd3a8ff0f71e50e0c3fe3d8c9f334d7e9ac025a569c"
     end
   end
 
